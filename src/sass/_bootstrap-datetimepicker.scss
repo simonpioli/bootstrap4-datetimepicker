@@ -1,6 +1,6 @@
 /*!
  * Datetimepicker for Bootstrap 3
- * ! version : 4.7.14
+ * ! version : 4.18.0
  * https://github.com/Eonasdan/bootstrap-datetimepicker/
  */
 $bs-datetimepicker-timepicker-font-size: 1.2em !default;
@@ -15,24 +15,33 @@ $bs-datetimepicker-secondary-border-color-rgba: rgba(0, 0, 0, 0.2) !default;
 $bs-datetimepicker-primary-border-color: white !default;
 $bs-datetimepicker-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !default;
 
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
 .bootstrap-datetimepicker-widget {
     list-style: none;
 
     &.dropdown-menu {
+        display: block;
         margin: 2px 0;
         padding: 4px;
         width: 19em;
 
         &.timepicker-sbs {
-            @media (min-width: $screen-sm-min) {
+            @media (min-width: map-get($grid-breakpoints, "sm")) {
                 width: 38em;
             }
 
-            @media (min-width: $screen-md-min) {
+            @media (min-width: map-get($grid-breakpoints, "md")) {
                 width: 38em;
             }
 
-            @media (min-width: $screen-lg-min) {
+            @media (min-width: map-get($grid-breakpoints, "lg")) {
                 width: 38em;
             }
         }
@@ -335,6 +344,14 @@ $bs-datetimepicker-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !default;
             height: 27px;
             line-height: 27px;
         }
+    }
+
+    &.wider {
+        width: 21em;
+    }
+
+    & .datepicker-decades .decade {
+        line-height: 1.8em !important;
     }
 }
 
