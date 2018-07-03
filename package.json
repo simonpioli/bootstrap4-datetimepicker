@@ -1,9 +1,9 @@
 {
   "author": {
-    "name": "Jonathan Peterson"
+    "name": "Simon Pioli"
   },
   "bugs": {
-    "url": "https://github.com/pingcheng/bootstrap4-datetimepicker/issues"
+    "url": "https://github.com/simonpioli/bootstrap4-datetimepicker/issues"
   },
   "peerDependencies": {
     "bootstrap": "^4.0.0-beta.2",
@@ -17,19 +17,20 @@
     "moment": "^2.10",
     "moment-timezone": "^0.4.0"
   },
-  "description": "A date/time picker component designed to work with Bootstrap 3 and Momentjs. For usage, installation and demos see Project Site on GitHub",
+  "description": "A date/time picker component designed to work with Bootstrap 4 and Momentjs. For usage, installation and demos see Project Site on GitHub",
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-connect": "^1.0.1",
     "grunt-contrib-jasmine": "^1.0.3",
     "grunt-contrib-jshint": "latest",
-    "grunt-contrib-less": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-env": "^0.4.4",
     "grunt-jscs": "latest",
     "grunt-nuget": "^0.1.5",
+    "grunt-sass": "^3.0.0",
     "grunt-string-replace": "latest",
-    "load-grunt-tasks": "latest"
+    "load-grunt-tasks": "latest",
+    "node-sass": "^4.9.0"
   },
   "homepage": "https://github.com/pingcheng/bootstrap4-datetimepicker",
   "keywords": [
@@ -47,5 +48,5 @@
     "type": "git",
     "url": "https://github.com/pingcheng/bootstrap4-datetimepicker"
   },
-  "version": "4.17.50"
+  "version": "4.18.0"
 }
