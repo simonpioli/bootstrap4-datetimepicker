@@ -32,7 +32,7 @@
     "load-grunt-tasks": "latest",
     "node-sass": "^4.9.0"
   },
-  "homepage": "https://github.com/pingcheng/bootstrap4-datetimepicker",
+  "homepage": "https://github.com/simonpioli/bootstrap4-datetimepicker",
   "keywords": [
     "twitter-bootstrap",
     "bootstrap",
@@ -46,7 +46,7 @@
   "name": "pc-bootstrap4-datetimepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pingcheng/bootstrap4-datetimepicker"
+    "url": "https://github.com/simonpioli/bootstrap4-datetimepicker"
   },
   "version": "4.18.0"
 }
